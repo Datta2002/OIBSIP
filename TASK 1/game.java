@@ -34,7 +34,7 @@ public class game {
             usersGuess = sc.nextInt(); // Read the user's guess            
             guessCount++;            
             if (usersGuess == computersNumber) {
-                System.out.println("Yes ! You got it correct !! You got it in " + guessCount);
+                System.out.println("Yes ! You got it correct !! You got it in " + guessCount +"attempts.");
                 break;  
             }            
             if (guessCount == 6) {
